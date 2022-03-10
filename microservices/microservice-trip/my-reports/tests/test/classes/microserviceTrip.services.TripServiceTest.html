@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TripServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TripServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/microserviceTrip.services.html">microserviceTrip.services</a> &gt; TripServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.082s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getTripPrices()</td>
+<td class="success">1.082s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:53:57.773 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:53:57.810 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:53:57.907 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [microserviceTrip.services.TripServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:53:57.934 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [microserviceTrip.services.TripServiceTest], using SpringBootContextLoader
+10:53:57.945 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [microserviceTrip.services.TripServiceTest]: class path resource [microserviceTrip/services/TripServiceTest-context.xml] does not exist
+10:53:57.946 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [microserviceTrip.services.TripServiceTest]: class path resource [microserviceTrip/services/TripServiceTestContext.groovy] does not exist
+10:53:57.947 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [microserviceTrip.services.TripServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:53:57.949 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [microserviceTrip.services.TripServiceTest]: TripServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:53:58.048 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [microserviceTrip.services.TripServiceTest]
+10:53:58.208 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\Users\Francky Malliet\git\TourGuide\JavaPathENProject8\microservice-trip\build\classes\java\main\microserviceTrip\MicroserviceTripApplication.class]
+10:53:58.210 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration microserviceTrip.MicroserviceTripApplication for test class microserviceTrip.services.TripServiceTest
+10:53:58.453 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [microserviceTrip.services.TripServiceTest]: using defaults.
+10:53:58.455 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:53:58.486 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+10:53:58.487 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+10:53:58.488 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b591b27, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1179b69d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6873f40a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12a864b3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@219bc5e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d8a4212, org.springframework.test.context.event.EventPublishingTestExecutionListener@a2e3a0d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5bf24a07, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2439204e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@b8c6c09, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7009c127, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@39621f53, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@54b46361]
+10:53:58.496 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@170e9371 testClass = TripServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7855ff4f testClass = TripServiceTest, locations = '{}', classes = '{class microserviceTrip.MicroserviceTripApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@38149089, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3bc4eb94, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@453370a7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@143d93dd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@65edf6b9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@77c4bb71], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+2022-03-03 10:53:59.147  INFO 26620 --- [    Test worker] m.services.TripServiceTest               : Starting TripServiceTest using Java 16.0.1 on F_WarMachine with PID 26620 (started by Francky Malliet in E:\Users\Francky Malliet\git\TourGuide\JavaPathENProject8\microservice-trip)
+2022-03-03 10:53:59.150  INFO 26620 --- [    Test worker] m.services.TripServiceTest               : No active profile set, falling back to default profiles: default
+2022-03-03 10:54:02.719  INFO 26620 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-03 10:54:02.809  INFO 26620 --- [    Test worker] m.services.TripServiceTest               : Started TripServiceTest in 4.226 seconds (JVM running for 7.269)
+85dead35-bef6-4617-99a6-23b00e38775a Enterprise Ventures Limited 1073.99
+85dead35-bef6-4617-99a6-23b00e38775a Sunny Days 389.99
+85dead35-bef6-4617-99a6-23b00e38775a Live Free 951.99
+85dead35-bef6-4617-99a6-23b00e38775a Live Free 225.99
+85dead35-bef6-4617-99a6-23b00e38775a Dancing Waves Cruse lines and Partners 521.99
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 3 mars 2022, 10:54:04</p>
+</div>
+</div>
+</body>
+</html>

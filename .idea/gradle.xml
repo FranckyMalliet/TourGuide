@@ -23,6 +23,26 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservices/microservice-trip" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../GRADLE/gradle-7.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/microservices/microservice-trip" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservices/microservice-visitedLocation" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../GRADLE/gradle-7.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/microservices/microservice-visitedLocation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
