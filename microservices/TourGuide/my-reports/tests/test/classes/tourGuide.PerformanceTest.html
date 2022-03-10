@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PerformanceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PerformanceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tourGuide.html">tourGuide</a> &gt; PerformanceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">17.362s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">highVolumeGetRewards()</td>
+<td class="success">17.362s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:47:30.349 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:47:30.384 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:47:30.497 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [tourGuide.PerformanceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:47:30.532 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tourGuide.PerformanceTest], using SpringBootContextLoader
+17:47:30.545 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tourGuide.PerformanceTest]: class path resource [tourGuide/PerformanceTest-context.xml] does not exist
+17:47:30.546 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tourGuide.PerformanceTest]: class path resource [tourGuide/PerformanceTestContext.groovy] does not exist
+17:47:30.547 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [tourGuide.PerformanceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:47:30.549 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tourGuide.PerformanceTest]: PerformanceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:47:30.662 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [tourGuide.PerformanceTest]
+17:47:30.851 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\Users\Francky Malliet\git\TourGuide\JavaPathENProject8\TourGuide\build\classes\java\main\tourGuide\Application.class]
+17:47:30.853 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tourGuide.Application for test class tourGuide.PerformanceTest
+17:47:31.149 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [tourGuide.PerformanceTest]: using defaults.
+17:47:31.150 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:47:31.189 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:47:31.191 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:47:31.192 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@682cbbe1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@783e6fd1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@46a7fc94, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@647b1094, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@69054c49, org.springframework.test.context.support.DirtiesContextTestExecutionListener@624ee65f, org.springframework.test.context.event.EventPublishingTestExecutionListener@1b74f5de, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27b7b994, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6493de2f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@71fab0fc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d9c6118, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@577d1a26, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2de5d440]
+17:47:31.203 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3565e6f6 testClass = PerformanceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d91bcdd testClass = PerformanceTest, locations = '{}', classes = '{class tourGuide.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@21e53e89, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4d05aedc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3229014, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@cced4f5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6934c4ef, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2fc5b881], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+2022-03-08 17:47:33.382  INFO 10200 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-03-08 17:47:33.615  INFO 10200 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2022-03-08 17:47:33.615  WARN 10200 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for &quot;http://localhost:8888/tourGuide/default&quot;: Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2022-03-08 17:47:33.643  INFO 10200 --- [    Test worker] tourGuide.PerformanceTest                : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2022-03-08 17:47:35.243  INFO 10200 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4b803887-de9e-3b2e-9031-4541ba635c89
+2022-03-08 17:47:38.329  INFO 10200 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-08 17:47:38.418  INFO 10200 --- [    Test worker] tourGuide.PerformanceTest                : Started PerformanceTest in 7.085 seconds (JVM running for 10.489)
+2022-03-08 17:47:39.409  INFO 10200 --- [    Test worker] tourGuide.PerformanceTest                : TestMode enabled
+2022-03-08 17:47:39.458  INFO 10200 --- [    Test worker] o.j.m.DefaultMonetaryContextFactory      : Using custom MathContext: precision=256, roundingMode=HALF_EVEN
+[tourGuide.models.Reward@7c0c0278]
+[tourGuide.models.Reward@9cb207d]
+[tourGuide.models.Reward@4a0c815c]
+[tourGuide.models.Reward@395d4187]
+[tourGuide.models.Reward@255e9b16]
+[tourGuide.models.Reward@75c69f08]
+[tourGuide.models.Reward@5b6ef68d]
+[tourGuide.models.Reward@8ecc51e]
+[tourGuide.models.Reward@59bb693e]
+[tourGuide.models.Reward@18c493de]
+[tourGuide.models.Reward@34b2c4d5]
+[tourGuide.models.Reward@5a183368]
+[tourGuide.models.Reward@58e8538c]
+[tourGuide.models.Reward@640e612c]
+[tourGuide.models.Reward@46388514]
+[tourGuide.models.Reward@5d207dc8]
+[tourGuide.models.Reward@474e21d3]
+[tourGuide.models.Reward@50de3f17]
+[tourGuide.models.Reward@524c003d]
+[tourGuide.models.Reward@c5ce981]
+[tourGuide.models.Reward@3aaa1160]
+[tourGuide.models.Reward@1b2da7a5]
+[tourGuide.models.Reward@29d20115]
+[tourGuide.models.Reward@4229e54f]
+[tourGuide.models.Reward@28e2dd7b]
+[tourGuide.models.Reward@5e84574d]
+[tourGuide.models.Reward@67673f21]
+[tourGuide.models.Reward@6a69bd1f]
+[tourGuide.models.Reward@54deac2c]
+[tourGuide.models.Reward@281ca7c5]
+[tourGuide.models.Reward@765c1bd0]
+[tourGuide.models.Reward@517ad141]
+[tourGuide.models.Reward@7064b88e]
+[tourGuide.models.Reward@3d0b1bc8]
+[tourGuide.models.Reward@2b1f0522]
+[tourGuide.models.Reward@2ce839d9]
+[tourGuide.models.Reward@791d4402]
+[tourGuide.models.Reward@1cadd5b2]
+[tourGuide.models.Reward@4fc8e510]
+[tourGuide.models.Reward@22032bc1]
+[tourGuide.models.Reward@312d46d7]
+[tourGuide.models.Reward@43df0505]
+[tourGuide.models.Reward@4bb7980b]
+[tourGuide.models.Reward@70d1ef9f]
+[tourGuide.models.Reward@2b9104ac]
+[tourGuide.models.Reward@105ddbf6]
+[tourGuide.models.Reward@67dd6e36]
+[tourGuide.models.Reward@188fc845]
+[tourGuide.models.Reward@3b981b9c]
+[tourGuide.models.Reward@45e4e572]
+[tourGuide.models.Reward@49449f26]
+[tourGuide.models.Reward@2fefbbab]
+[tourGuide.models.Reward@54d00131]
+[tourGuide.models.Reward@367db1ac]
+[tourGuide.models.Reward@5bada5ea]
+[tourGuide.models.Reward@9cd7fd7]
+[tourGuide.models.Reward@5dc02e56]
+[tourGuide.models.Reward@6eb1493]
+[tourGuide.models.Reward@305f6351]
+[tourGuide.models.Reward@520e914a]
+[tourGuide.models.Reward@e60b7c3]
+[tourGuide.models.Reward@50716510]
+[tourGuide.models.Reward@1bffd1a4]
+[tourGuide.models.Reward@3d5d9750]
+[tourGuide.models.Reward@3608e197]
+[tourGuide.models.Reward@6d0a4ba3]
+[tourGuide.models.Reward@89dd557]
+[tourGuide.models.Reward@59ab2403]
+[tourGuide.models.Reward@285e62f8]
+[tourGuide.models.Reward@17b66303]
+[tourGuide.models.Reward@71672bcf]
+[tourGuide.models.Reward@716c92dc]
+[tourGuide.models.Reward@2afe67ab]
+[tourGuide.models.Reward@e74b78c]
+[tourGuide.models.Reward@4605dcde]
+[tourGuide.models.Reward@536a5cb0]
+[tourGuide.models.Reward@a70ba49]
+[tourGuide.models.Reward@2113a45c]
+[tourGuide.models.Reward@49987f8c]
+[tourGuide.models.Reward@489635d3]
+[tourGuide.models.Reward@47bb6c7a]
+[tourGuide.models.Reward@7bb60195]
+[tourGuide.models.Reward@71d86570]
+[tourGuide.models.Reward@819ee35]
+[tourGuide.models.Reward@14dd8bf0]
+[tourGuide.models.Reward@5f2c9a57]
+[tourGuide.models.Reward@6ded8727]
+[tourGuide.models.Reward@2a42a4e9]
+[tourGuide.models.Reward@5238385a]
+[tourGuide.models.Reward@69fdee68]
+[tourGuide.models.Reward@682888cf]
+[tourGuide.models.Reward@57f20ccf]
+[tourGuide.models.Reward@449b0483]
+[tourGuide.models.Reward@42932cd6]
+[tourGuide.models.Reward@6ed1aabb]
+[tourGuide.models.Reward@290257da]
+[tourGuide.models.Reward@3521e165]
+[tourGuide.models.Reward@6e8f8e8b]
+[tourGuide.models.Reward@d687593]
+[tourGuide.models.Reward@366f4f63]
+highVolumeGetRewards: Time Elapsed: 16 seconds.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 8 mars 2022, 17:47:56</p>
+</div>
+</div>
+</body>
+</html>
